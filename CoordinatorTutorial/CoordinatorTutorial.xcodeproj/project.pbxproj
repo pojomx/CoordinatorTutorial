@@ -16,6 +16,8 @@
 		A1EF43E028A2DE8500D71B38 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF43DF28A2DE8500D71B38 /* Coordinator.swift */; };
 		A1EF43E228A2DEDC00D71B38 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF43E128A2DEDC00D71B38 /* Storyboarded.swift */; };
 		A1EF43E428A2DF9D00D71B38 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF43E328A2DF9D00D71B38 /* MainCoordinator.swift */; };
+		A1EF43E728A2F0DA00D71B38 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF43E628A2F0DA00D71B38 /* BuyViewController.swift */; };
+		A1EF43E928A2F11800D71B38 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF43E828A2F11800D71B38 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A1EF43DF28A2DE8500D71B38 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		A1EF43E128A2DEDC00D71B38 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		A1EF43E328A2DF9D00D71B38 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A1EF43E628A2F0DA00D71B38 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		A1EF43E828A2F11800D71B38 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,10 @@
 		A1EF43C928A2DE7300D71B38 /* CoordinatorTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A1EF43E528A2F0A700D71B38 /* View Controllers */,
 				A1EF43DE28A2DE7A00D71B38 /* Coordinator */,
 				A1EF43CA28A2DE7300D71B38 /* AppDelegate.swift */,
 				A1EF43CC28A2DE7300D71B38 /* SceneDelegate.swift */,
-				A1EF43CE28A2DE7300D71B38 /* ViewController.swift */,
 				A1EF43D028A2DE7300D71B38 /* Main.storyboard */,
 				A1EF43D328A2DE7500D71B38 /* Assets.xcassets */,
 				A1EF43D528A2DE7500D71B38 /* LaunchScreen.storyboard */,
@@ -82,6 +86,16 @@
 				A1EF43E328A2DF9D00D71B38 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A1EF43E528A2F0A700D71B38 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF43CE28A2DE7300D71B38 /* ViewController.swift */,
+				A1EF43E628A2F0DA00D71B38 /* BuyViewController.swift */,
+				A1EF43E828A2F11800D71B38 /* CreateAccountViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +173,9 @@
 				A1EF43E428A2DF9D00D71B38 /* MainCoordinator.swift in Sources */,
 				A1EF43CF28A2DE7300D71B38 /* ViewController.swift in Sources */,
 				A1EF43E228A2DEDC00D71B38 /* Storyboarded.swift in Sources */,
+				A1EF43E928A2F11800D71B38 /* CreateAccountViewController.swift in Sources */,
 				A1EF43CB28A2DE7300D71B38 /* AppDelegate.swift in Sources */,
+				A1EF43E728A2F0DA00D71B38 /* BuyViewController.swift in Sources */,
 				A1EF43CD28A2DE7300D71B38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
